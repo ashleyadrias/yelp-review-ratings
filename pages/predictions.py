@@ -22,14 +22,10 @@ column1 = dbc.Col(
         dcc.Markdown(
             """
         
-            #### My Movie Recommendations: 
+            #### Review Classification: 
             """,style={'width': '90%', 'display': 'inline-block'}, className='mb-4'
         ),
         html.Div(id='prediction-content', className='lead'),
-        html.Div(id='prediction-content2', className='lead'),
-        html.Div(id='prediction-content3', className='lead'),
-        html.Div(id='prediction-content4', className='lead'),
-        html.Div(id='prediction-content5', className='lead'),
         html.Img(src='assets/chrestaurant4.jpeg',style={'width': '90%', 'display': 'inline-block'}, className='img-fluid'),
         # dbc.FormText("Type something in the box above"),
                
